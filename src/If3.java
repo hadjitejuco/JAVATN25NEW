@@ -10,6 +10,6 @@ public class If3 {
         }else{
             System.out.println("The number is negative");
         }
-        
+       
     }
 }
