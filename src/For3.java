@@ -8,9 +8,10 @@ public class For3 {
                 break;
         }
         System.out.println("Loop stopped");
+        //      1          2      4
         for (int i = 0; i < 10; i++) {
             if (i % 2 == 0) {
-                continue;
+                continue;         //3
             }
             System.out.println(" " + i);
         }
