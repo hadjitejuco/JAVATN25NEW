@@ -1,4 +1,15 @@
+/*
+    PERSON
 
+    -name: String
+    -age: int
+
+    +Person(String name, int age)
+    +String getName()
+    +setName(String name)
+    +getAge()
+    +setAge(int age)
+*/
 public class Person {
     //Attributes
     private String name;
