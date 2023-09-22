@@ -1,12 +1,31 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 
-/**
- *
- * @author hadjitejuco
- */
 public class BankAccount {
+    
+    private double balance;
+    
+    //getters for balance
+    public double getBalance(){
+        return balance;
+    }
+    //setters
+    //input / modification
+    private void setBalance(double balance){
+        this.balance = balance;
+    }
+    
+    //deposit method
+    public void deposit(double amount){
+        if (amount > 0) {
+            setBalance(getBalance()+amount);
+        }
+    }
+    
+    public void withdraw(double amount){
+        if (amount > 0 && amount <= getBalance()){
+            setBalance(getBalance()-amount);
+        }else{
+            System.out.println("Invalid below or exceed ");
+        }
+    }
     
 }
