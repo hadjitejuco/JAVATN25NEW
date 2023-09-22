@@ -1,4 +1,12 @@
+/*
+MENU
+        Deposit
+        Withdraw
+        Check Balance
+        Exit
 
+        Ask the user to try again
+*/
 import java.util.Scanner;
 public class BankAccountApp {
     public static void main(String[] args) {
