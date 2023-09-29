@@ -16,7 +16,9 @@ public class EncapBankAccountMainApp {
             System.out.println("1. Add Transaction"); //+number deposit  -number withdrawal
             System.out.println("2. Display Transaction");
             System.out.println("3. Check Balance");
-            System.out.println("4. Exit");
+            System.out.println("4. Delete Transaction");
+            System.out.println("5. Modify Transaction");
+            System.out.println("6. Exit");
             System.out.println("Enter your choice: ");
             int choice = scanner.nextInt();
             
@@ -37,7 +39,7 @@ public class EncapBankAccountMainApp {
                 case 3:
                     System.out.println("Current Balance " +account.getCurrentBalance());
                     break;
-                case 4:
+                case 6:
                     System.out.println("Exit");
                     scanner.close();
                     return;
