@@ -8,7 +8,8 @@ public class EncapRectangleMainApp {
         
         rectangle.setWidth(5);
         rectangle.setHeight(5);
-            
+      
+        
         System.out.println("New Value of width "+rectangle.getWidth());
         System.out.println("New Value of height "+rectangle.getHeight());
         System.out.println("Area of rectangle is "+rectangle.area());   
