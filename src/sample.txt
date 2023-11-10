@@ -1,1 +1,2 @@
-BCX
+BCXhadjiWelcome to java 101hello world
+hello world again ...
