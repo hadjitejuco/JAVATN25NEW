@@ -1,0 +1,5 @@
+Account Created: Account ID: 1, Name: hadji, Balance: $0.0
+Account Created: Account ID: 2, Name: juan, Balance: $0.0
+Deposited $2000.0: Account ID: 2, Name: juan, Balance: $2000.0
+Withdrawn $500.0: Account ID: 2, Name: juan, Balance: $1500.0
+Withdrawn $200.0: Account ID: 2, Name: juan, Balance: $1300.0
