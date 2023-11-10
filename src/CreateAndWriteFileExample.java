@@ -15,7 +15,7 @@ public class CreateAndWriteFileExample {
             //Write to the file
             FileWriter writer = new FileWriter(myFile, true);
             
-            writer.write('A');
+            writer.write('C');
             
             //close write
             writer.close();
@@ -24,7 +24,7 @@ public class CreateAndWriteFileExample {
             
         }catch(IOException e) {
             System.err.println("Error occured");
-            e.printStackTrace();
+            //e.printStackTrace();
         
         }
         
