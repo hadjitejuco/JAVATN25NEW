@@ -1,3 +1,50 @@
+
+/*
+LEC
+Answer FA 4-5
+Nov 15 - SA3
+Mov 17 - SA4
+
+LAB
+
+Upload PDF / java program
+FA5 - 
+    Prepare MENU
+        list
+        Queue
+        Set
+SA4
+    NOV 25
+FINAL PROJECT 
+    Create a Game that uses all the java topics 
+        Collections
+        Filehandling
+
+        TEMPLATE
+            Introduction
+            Rules
+            Discussion
+            SS
+        Video Presentation -> Nov 24, 2023 (ONLINE) ->
+
+        Upload  
+            TEMPLATE . -> CANVAS 
+            java file -> CANVAS
+            Video GDRIVE with TEMPLATE and' JAVA FILE
+
+
+
+
+
+*/
+
+
+
+
+
+
+
+
 import java.io.*;
 
 public class FileUtility {
@@ -11,7 +58,7 @@ public class FileUtility {
             bw.newLine();
             bw.flush();
         } catch (IOException e) {
-            System.out.println("An error occurred while writing to the file.");
+            System.err.println("An error occurred while writing to the file.");
         }
     }
 
@@ -24,7 +71,7 @@ public class FileUtility {
                 System.out.println(line);
             }
         } catch (IOException e) {
-            System.out.println("An error occurred while reading the file.");
+            System.err.println("An error occurred while reading the file.");
         }
     }
 }
