@@ -1,0 +1,24 @@
+
+create a program that in java applying exception handling, throws 
+Class name -> ExerException
+
+Use Array as your input
+Validates the score to ensure it's between 0 and 100.
+Assigns and prints a grade based on the score.
+    score >=90  'A'
+    score >=80  'B'
+    score >=70  'C'
+    score >=60  'D'
+    otherwise 'F'
+Handles exceptions where necessary.
+
+Create an array with default values into the array
+
+array - 95, 83, 76, 58, 110, -5
+
+Score: 95 - Grade: A
+Score: 83 - Grade: B
+Score: 76 - Grade: C
+Score: 58 - Grade: F
+Error for score 110: Score must be between 0 and 100
+Error for score -5: Score must be between 0 and 100
